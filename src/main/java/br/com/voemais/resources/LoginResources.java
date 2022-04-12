@@ -18,7 +18,7 @@ import br.com.voemais.services.LoginService;
 
 @RestController
 @RequestMapping("/login")
-@CrossOrigin(origins = "http://localhost:3000")
+@CrossOrigin(origins = "https://voemais.netlify.app/")
 public class LoginResources {
 	
 	@Autowired
